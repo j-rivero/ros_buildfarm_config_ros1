@@ -11,8 +11,7 @@ notifications:
   committers: true
   compiler_warnings: true
   emails:
-  - ros-buildfarm-melodic@googlegroups.com
-  - clalancette+buildfarm@osrfoundation.org
+    - jrivero+18.206.154.49@openrobotics.org
   maintainers: true
 repositories:
   keys:
@@ -57,5 +56,7 @@ test_commits:
   default: true
 test_pull_requests:
   default: false
+test_abi:
+  default: true
 type: source-build
 version: 2
