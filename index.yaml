@@ -12,7 +12,7 @@ distributions:
 doc_builds:
   independent-packages: doc-independent-build.yaml
   rosindex: doc-rosindex.yaml
-jenkins_url: http://citest2.ros2.org
+jenkins_url: https://citest2.ros2.org
 notification_emails:
 - jrivero+build.ros.org@openrobotics.org
 prerequisites:
